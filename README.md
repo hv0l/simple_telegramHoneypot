@@ -2,7 +2,7 @@
 
 # Honeypot on Linux with Telegram Notifications
 
-This simple honeypot listens on port 80 and sends a message to your Telegram account with information about incoming connection attempts. The message includes the timestamp, attempt count, IP address, and request headers.
+This simple honeypot listens on port 80, 22 and 23 and sends a message to your Telegram account with information about incoming connection attempts. The message includes the timestamp, attempt count, IP address, and request headers.
 
 ## Setup
 
@@ -40,7 +40,7 @@ pip install Flask python-telegram-bot
 python honeypot.py
 ```
 
-The honeypot is now active and listening on port 80. When someone tries to view the content, you will receive a message on Telegram with information about the request.
+The honeypot is now active and listening on port 80, 22 and 23. When someone tries to view the content, you will receive a message on Telegram with information about the request.
 
 
 
